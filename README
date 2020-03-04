@@ -1,0 +1,8 @@
+# Create virtual enviroment
+python3 -m venv .env
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run the data polling script "PLC"
+python update_script.py
